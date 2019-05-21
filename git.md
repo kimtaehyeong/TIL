@@ -115,7 +115,7 @@
    $ git push origin master
    ```
 
-   `origin` 이라는 이름의 원격저장소에 올린다.(push)
+   `origin` 이라는 이름의 원격저장소에 올린다. (push)
 
 
 
@@ -129,7 +129,15 @@
 
    해당 명령어는 집 혹은 개인 노트북에서 작업하려고 할 때 받아서 쓸 수 있다.
 
+   
 
+> 혹시, [rejected] master -> mater (fetch first) 라는 문구가 뜬다면? 
+>
+> (A git 서버의 내용을 B git 서버에 push 하는 경우 발생할 수 있다.)
 
+```
+git push origin +master
+```
 
+위 명령어로 해결할 수 있지만, 변경 내용만 push 되는것이 아니라 소스 전체가 다시 push되서, 기존 데이터를 보장 못할수도 있다..ㅠㅠ
 
