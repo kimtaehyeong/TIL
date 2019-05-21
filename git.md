@@ -140,3 +140,21 @@ git push origin +master
 
 위 명령어로 해결할 수 있지만, 변경 내용만 push 되는것이 아니라 소스 전체가 다시 push되서, 기존 데이터를 보장 못할수도 있다..ㅠㅠ
 
+
+
+
+
+> ```
+> Another git process seems to be running in this repository, e.g.
+> an editor opened by 'git commit'. Please make sure all processes
+> are terminated then try again. If it still fails, a git process
+> may have crashed in this repository earlier:
+> remove the file manually to continue.
+> ```
+
+위와 같은 문구가 뜰때는.. 아래 명령어를 통해 lock를 풀어준다.
+
+```
+$ rm -f .git/index.lock
+```
+
