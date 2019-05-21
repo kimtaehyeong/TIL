@@ -157,4 +157,3 @@ git push origin +master
 ```
 $ rm -f .git/index.lock
 ```
-
