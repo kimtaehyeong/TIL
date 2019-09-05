@@ -36,9 +36,9 @@
 
   * [클래스](https://github.com/kimtaehyeong/Python/blob/master/Class_test.ipynb)
 
-  * [모듈]([https://github.com/kimtaehyeong/Python/blob/master/7_1%20Module.ipynb](https://github.com/kimtaehyeong/Python/blob/master/7_1 Module.ipynb))
+  * [모듈](https://github.com/kimtaehyeong/Python/blob/master/7_1%20Module.ipynb)
 
-  * [파일 입출력]([https://github.com/kimtaehyeong/Python/blob/master/8_1%20File.ipynb](https://github.com/kimtaehyeong/Python/blob/master/8_1 File.ipynb))
+  * [파일 입출력](https://github.com/kimtaehyeong/Python/blob/master/8_1 File.ipynb)
 
   * [예외 처리](https://github.com/kimtaehyeong/Python/blob/master/9_1_Exception.ipynb)
 
@@ -54,4 +54,3 @@
 
   * Numpy
   * Pandas
-
