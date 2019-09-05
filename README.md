@@ -38,7 +38,7 @@
 
   * [모듈](https://github.com/kimtaehyeong/Python/blob/master/7_1%20Module.ipynb)
 
-  * [파일 입출력](https://github.com/kimtaehyeong/Python/blob/master/8_1 File.ipynb)
+  * [파일 입출력]('https://github.com/kimtaehyeong/Python/blob/master/8_1%20File.ipynb')
 
   * [예외 처리](https://github.com/kimtaehyeong/Python/blob/master/9_1_Exception.ipynb)
 
@@ -54,3 +54,27 @@
 
   * Numpy
   * Pandas
+  * Regression Model
+  * Classificiation Model
+  * Ensemble Model
+  * Boosting
+
+  
+
+* Deep Learning (**업데이트 예정**)
+
+
+
+* Math (**업데이트 예정**)
+
+  
+
+* Crawling (**업데이트 예정**)
+
+* MySQL
+
+
+
+
+
+* Mini Project (**업데이트 예정**)
