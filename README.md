@@ -11,7 +11,7 @@
 
 * 알고리즘
 
-  * [알고리즘 풀이를 위한 기본 사용방법](https://github.com/kimtaehyeong/Algorithm/tree/master/basic)
+  * [알고리즘 풀이를 위한 기본 문법](https://github.com/kimtaehyeong/Algorithm/tree/master/basic)
   * [백준](https://www.acmicpc.net/)
     * DFS와 BFS [문제](https://www.acmicpc.net/problem/1260) / [풀이](https://github.com/kimtaehyeong/Algorithm/blob/master/solution/beakjoon_1260.py)
     * 버블 소트 [문제](https://www.acmicpc.net/problem/1377) / [풀이](https://github.com/kimtaehyeong/Algorithm/blob/master/solution/beakjoon_1377.ipynb)
