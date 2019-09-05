@@ -70,5 +70,101 @@ $ git config --global user.email {사용자이메일}
    $ git status
    ```
 
-   * `CLI` 에서 항상 지금 상태를 확인하기 위해서 `status`명령어를 입력해보자!
+   * `CLI` 에서 항상 지금 상태를 확인하기 위해서 `status`명령어를 입력해보자!!
 
+## 원격 저장소(remote repository) 활용
+
+1. 원격 저장소 설정
+
+   ```bash
+   $ git remote add origin {원격저장소url}
+   ```
+
+   - `origin` 이라는 이름으로 `url` 을 설정한다.
+
+2. 원격 저장소 확인
+
+   ```bash
+   $ git remote -v
+   origin https://github.com/kimtaehyeong/TIL.git (fetch)
+   origin https://github.com/kimtaehyeong/TIL.git (push)
+   ```
+
+3. 원격 저장소 push
+
+   ```bash
+   $ git push origin master
+   ```
+
+4.  원격 저장소 pull
+
+   ```bash
+   $ git pull origin master 
+   ```
+
+
+
+### 멀캠-집 개인 활용 시나리오
+
+1. 멀캠 도착 햇을 때,
+
+   ```bash
+   $ git pull origin master
+   ```
+
+2.  멀캠에서 작업 다하고,
+
+   ```bash
+   $ git add .
+   $ git commit -m {}
+   $ git push origin master
+   ```
+
+3.  집에 도착해서,
+
+   ```bash
+   $ git pull origin master
+   ```
+
+4.  집에서 작업 다하고, `push`
+
+   ```bash
+   $ git add
+   $ git commit -m {}
+   $ git push origin master
+   ```
+
+   
+
+
+
+
+
+
+
+# 예시
+
+```bash
+1. 집에 도착해서 받아오고(pull)
+2. 집에서 작업하고 (add-> commit)
+3. 집에서 업로드(push)
+4. 멀캠에서 받아오고..(push)
+5. 멀캠에서 작업하고(add -> commit)
+6. 5시 50분에 업로드 (push)
+```
+
+## 1. pull을 하지 않고 집에서(다른)
+
+pull을 다시 받고
+
+merge commit 발생하고
+
+push
+
+## 2. pull을 하지 않고 집에서(같은 파일을) 작업 후 push
+
+pull을 다시 받고
+
+merge conflict 발생하고
+
+직접 충돌 해결한 이후 commit 진행 후 push
