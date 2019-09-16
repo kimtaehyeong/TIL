@@ -16,6 +16,7 @@
     * DFS와 BFS [문제](https://www.acmicpc.net/problem/1260) / [풀이](https://github.com/kimtaehyeong/Algorithm/blob/master/solution/beakjoon_1260.py)
     * 버블 소트 [문제](https://www.acmicpc.net/problem/1377) / [풀이](https://github.com/kimtaehyeong/Algorithm/blob/master/solution/beakjoon_1377.ipynb)
     * 시험감독 [문제](https://www.acmicpc.net/problem/13458) / [풀이](https://github.com/kimtaehyeong/Algorithm/blob/master/solution/beakjoon_13458.py)
+    * 설탕배달 [문제](https://www.acmicpc.net/problem/2839) / [풀이](https://github.com/kimtaehyeong/Algorithm/blob/master/solution/beakjoon_2839.py)
   * [프로그래머스](https://programmers.co.kr/)
     * H-Index [문제](https://programmers.co.kr/learn/courses/30/lessons/42747) / [풀이](https://github.com/kimtaehyeong/Algorithm/blob/master/solution/h_index.ipynb)
 
