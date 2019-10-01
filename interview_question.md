@@ -27,7 +27,10 @@
 * 확률밀도함수(Probability Density Function)
   * PDF라고 약자로 많이 사용하며, 확률밀도함수는 연속적인 변수에 의한 확률 분포 함수를 의미한다.
   * 특정구간이 다른 구간에 비해 상대적으로 얼마나 높은가를 나타낸 형식인데, 항상 양의 값을 가지며, 모든 PDF를 합하면 1이된다는 특성을 가지고 있다.
-  * 어떠한 일정 범위의 확률은 구간 PDF 넓이 즉, 적분값이 된다.
+  * 어떠한 일정 범위의 확률은 구간 PDF 넓이 즉, 적분값이 된다.  
+  $$
+    \displaystyle \int_\infty^\infty f\left(x\right)dx
+  $$
   
 * 누적분포함수(Cumulative Distribution Function)
   * CDF라고 약자로 많이 사용하며, 어떠한 확률분포에 대해서 확률변수가 특정값보다 작거나 같은 확률을 나타낸다.
