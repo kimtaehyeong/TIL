@@ -39,7 +39,14 @@
 * 조건부확률(conditional probability)
   * 어떤 사건 B가 일어났을 때 사건 A가 일어날 확률을 의미한다.
   * 수식적으로 이해보다는 문제를 보면서 어떤 형식으로 풀이가되는지 이해하면 이해가 잘된다.
-
+  
+  
+* 공분산(covariance)
+  * 각 확률변수들이 어떻게 퍼져있는지를 나타내는 것
+* 상관계수(correlation)
+  *
+  
+  
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
