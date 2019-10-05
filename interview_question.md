@@ -55,6 +55,12 @@
   * 1을 넘을 수 없고, x,y가 independent하다면 상관계수는 0이고, linear 하다면 1,-1이다.
   
   
+* 확률분포 (common probability distributions)
+  * 베르누이 분포(bernoulli distribution) : 매 시행시 오직 두 가지의 가능한 결과만 일어난다고 할때, 0과 1로 결정되는 확률변수 X에 대해서
+  P(X=0) = p, P(X=1) = q 일때 0<=p<=1, q = 1-p를 만족하는 
+  
+  
+  
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
