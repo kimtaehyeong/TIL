@@ -76,6 +76,11 @@
   
 * 평균(mean)과 중앙값(median) : 모집단이나 표본의 특성을 잘 나타내는 기본적인 수치로 평균은 전체 표본값을 포본의갯수로 나눠주면 되는데, 평균값이 모든 집단을 대표할 수 있는것이 아니다. 극단적으로 내 친구들 연봉이 4천만원이고 내가 1억을 번다고 가정하였을때, 평균연봉이 7천만원이 될 수 있는데 이러한 경우는 평균이 집단을 대표할 수 없다. 그래서 이상치(outlier) 값들이 많을, 표본이 가지고있는 수치를 작은 값부터 큰값까지 정렬한 후 중앙을 선택하는 방법이 중앙값이다. 그외에도 어떤 샘플이 자주 등장하는 값을 대표값으로 설정하는 최빈값(mode)도 있는데 이러한 수치로도 뭔가 대표할만한 값 찾기가 쉽지 않아 분산, 표준편차 등 여러가지 수치를 특성으로 표현하는 경우가 많다.
   
+* likelihood(가능도)와 probability(확률)의 차이 : 확률은 우리가 주사위를 던지면 1이 나올 확률이 1/6인것을 알고 있다. 이처럼 사전에 알고 있는 확률이 probability이며, 일반적으로 딥러닝 머신러닝에서 많이 등장하는 likelihood는 정의가 애매모호하지만, 데이타 y가 이미 관찰된 것으로 보고 u를 변수로 보는게 likelihood인데, likelihood가 가장 많이 쓰이는 부분은 주어진 데이타에서 가장 가능성이 높은 u를 찾는것이 바로 MLE(maximum likelihood estimation)이다.
+  
+* 좋은 feature란 무엇이며, 좋은 feature를 뽑는 방법중 어떤 방법이 있을까? 좋은 feature란 어떤 모델에서 좋은 성능을 보여줄 수 있는 데이터들의 특징(feature)이며 일반적으로 feature selection을 통해 전체 데이터에서 subset을 원본 데이터로부터 찾는다. pca, svd, nmf 등을 이용해서 차원을 축소하여 빠르게 계산을 할 수 있는데 차원 축소(dimentionality)를 하는 이유로는 어떤 잠재 공간(latent space)은 실제 관찰 공간(observation space)보다 작을 수 있기에, 샘플기반으로 잠재 공간을 파악하는것이 차원 축소라고 부른다. outlier를 제거만 하는것이 아닌 궁극적으로 latent space를 찾는것이다.
+  
+  
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
