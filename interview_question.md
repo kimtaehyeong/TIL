@@ -87,6 +87,9 @@
 * 오브젝트 디텍션 대표적인 논문은? Object-Detection은 여러가지 물체에 대한 분류(classification) + 물체의 위치정보를 파악하는 localization이라고 생각할 수 있습니다. 크게 regional proposal과 classification이 순차적으로 이루어지는 r-cnn계열인 r-cnn, fast r-cnn, faster r-cnn, mask-rcnn이 있고 regional proposal와 clssication이 동시에 이루어지는 yolo, ssd 계열이 있다. yolo는 v5까지 나와있고 ssd는 refinedet이 state-of-the-art한 논문인거 같다.
   
 * 모델 경량화 하는방법은 ? 크게 경량 알고리즘 연구, 알고리즘 경량화 연구 두 분류로 나뉠수 있는데, 경량 알고리즘 연구에는 모델 구조 변경, cnn 필터 변경, 강화 학습을 통해 최적 모델 자동 탐색 연구가 있으며 알고리즘 경량화 연구에는 모델 압축, 전이 학습, 하드웨어 가속화, 강화 학습 기반의 최적모델 연구 AMC 로 크게 볼 수 있다. 
+  
+* Batch Normalization ? 딥러닝에서 layer가 deep 할수록 vanishing gradient 문제가 자주 일어난다. 그래서 bn(batch normalization)은 학습 중에 covariate shift 문제가 발생한다고 나와있는데, 이전 layer의 파마리터 변화로 인해 현재 layer의 입력 분포가 바뀌는 현상이다. 그래서 whitening 방법으로 평균 0 분산 1 로 만들수도 있지만 bp(backpropagation) 되는과정과 다르게 작동하므로 특정 파라미터가 커질 수도 있다는 문제점이 있는데, 별로 프로세스 없이 학습하면서 같이 학습되는것이 whitening과 차이점이라고 볼 수 있다. 그래서 간단하게 생각하면 평균과 분산을 구해 정규화 시키고 scale 작업과 shift을 위한 변수 알파값과 감마값을 추가되었다고 볼 수 있다. cs(covariate shift)문제도 해결하고 학습속도도 빨라졌다. 즉, 좋은 성능을 얻기위해 빠르게 수렴할수 있도록 도와준다고 생각할 수 있다.
+  
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
