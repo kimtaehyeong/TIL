@@ -90,6 +90,10 @@
   
 * Batch Normalization ? 딥러닝에서 layer가 deep 할수록 vanishing gradient 문제가 자주 일어난다. 그래서 bn(batch normalization)은 학습 중에 covariate shift 문제가 발생한다고 나와있는데, 이전 layer의 파마리터 변화로 인해 현재 layer의 입력 분포가 바뀌는 현상이다. 그래서 whitening 방법으로 평균 0 분산 1 로 만들수도 있지만 bp(backpropagation) 되는과정과 다르게 작동하므로 특정 파라미터가 커질 수도 있다는 문제점이 있는데, 별로 프로세스 없이 학습하면서 같이 학습되는것이 whitening과 차이점이라고 볼 수 있다. 그래서 간단하게 생각하면 평균과 분산을 구해 정규화 시키고 scale 작업과 shift을 위한 변수 알파값과 감마값을 추가되었다고 볼 수 있다. cs(covariate shift)문제도 해결하고 학습속도도 빨라졌다. 즉, 좋은 성능을 얻기위해 빠르게 수렴할수 있도록 도와준다고 생각할 수 있다.
   
+* TensorFlow 1.7 이상버전에서는 Eager Execution가 되는데 무슨 기능인가 ? TensorFlow를 대화형 명령 스타일로 프로그래밍 할 수 있도록 해주는건데, 기존의 그래프 기반 방식에서 벗어나 그래프 생성 없이 연산을 즉시 실행하는 명령형 프로그래밍 환경을 구성할 수 있다. 이를 통해 모델을 디버그 할 수 있으며 불필요한 상용구도를 줄일수 있다.
+  
+  
+  
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
