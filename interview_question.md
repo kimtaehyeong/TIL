@@ -92,7 +92,7 @@
   
 * TensorFlow 1.7 이상버전에서는 Eager Execution가 되는데 무슨 기능인가 ? TensorFlow를 대화형 명령 스타일로 프로그래밍 할 수 있도록 해주는건데, 기존의 그래프 기반 방식에서 벗어나 그래프 생성 없이 연산을 즉시 실행하는 명령형 프로그래밍 환경을 구성할 수 있다. 이를 통해 모델을 디버그 할 수 있으며 불필요한 상용구도를 줄일수 있다.
   
-  
+* autoencoder란 무엇이며, 어디서 사용될 수 있을까요? input이 있을때 이 값들에 대한 feature를 학습 한 후 다시 출력한 결과의 output값이 input과 같은 unsupervised learning이며 data compression 특성이 강하기 때문에 주로 분석을 위한 classficiation에 많이 사용된다. 단독으로 사용할 경우 feature extraction으로 사용하는 경우가 많지만, 이렇게 추출한 feature를 다시 인풋으로 svm, ann 등에 넣어서 분류로 사용될 수 있다.
   
 * Reference
 
