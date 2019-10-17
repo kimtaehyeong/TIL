@@ -94,6 +94,9 @@
   
 * autoencoder란 무엇이며, 어디서 사용될 수 있을까요? input이 있을때 이 값들에 대한 feature를 학습 한 후 다시 출력한 결과의 output값이 input과 같은 unsupervised learning이며 data compression 특성이 강하기 때문에 주로 분석을 위한 classficiation에 많이 사용된다. 단독으로 사용할 경우 feature extraction으로 사용하는 경우가 많지만, 이렇게 추출한 feature를 다시 인풋으로 svm, ann 등에 넣어서 분류로 사용될 수 있다.
   
+* python iterable과 iterator에 대해 설명하세요 ? Iterable 객체는 반복 가능한 객체로 list, dict, set, str 등 대표적인 타입이 있어서 for a in 객체 형식으로 쓸 수 있는것은 다 iterable하다고 표현한다. Iterator는 값을 차례대로 꺼낼 수 있는 객체인데 next() 함수를 통해서 다음 객체의 값을 꺼내올 수 있다.
+  
+  
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
