@@ -96,6 +96,7 @@
   
 * python iterable과 iterator에 대해 설명하세요 ? Iterable 객체는 반복 가능한 객체로 list, dict, set, str 등 대표적인 타입이 있어서 for a in 객체 형식으로 쓸 수 있는것은 다 iterable하다고 표현한다. Iterator는 값을 차례대로 꺼낼 수 있는 객체인데 next() 함수를 통해서 다음 객체의 값을 꺼내올 수 있다.
   
+* generator와 yield을 간략하게 설명하세요 ? generator는 iterator를 생성해주는 함수입니다. yield 키워드를 이용하면 쉽게 구현할 수 있는데, yield 키워드는 양보하는 키워드로 값을 함수 외부로 전달하면서 코드 실행 for문 등, 함수 바깥에 양보를해 현재 함수르 ㄹ잠시 중단하고 외부 코드가 실행되도록 만드는 역할을 한다.
   
 * Reference
 
