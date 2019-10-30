@@ -99,6 +99,9 @@
 * generator와 yield을 간략하게 설명하세요 ? generator는 iterator를 생성해주는 함수입니다. yield 키워드를 이용하면 쉽게 구현할 수 있는데, yield 키워드는 양보하는 키워드로 값을 함수 외부로 전달하면서 코드 실행 for문 등, 함수 바깥에 양보를해 현재 함수르 ㄹ잠시 중단하고 외부 코드가 실행되도록 만드는 역할을 한다.
   
 * vanishing gradient란 ? 기울기값이 사라지는 문제는 튜닝하기가 어렵게 만든데, 레이어가 깊어질수록 더 자주 발생되는데, 근본적인 문제는 activation function에서 문제가 발생한다. 즉, 비선형함수를 사용할때 sigmoid를 계속 곱하면 작은값이 더 작은값으로 곱해지면서 0 에 가까워지는데, 시작 layer에 대해 매우 큰 변화가 있다고 하더라도 ouput을 크게 변화시키는 문제점이 발생한다. 이러한 문제점을 해결하기 위해, relu를 자주 사용한다.
+  
+* GD(gradient descent) 와 SGD(stochastic gradient descent) 차이점은 ? 딥러닝에서 가장 기본적으로 경사 하강법인(gradient descent)를 배운다. 즉, 미분을 이용해 가중치를 업데이트 ㅌ하는건데, GD는 전체 데이터를 미분해야 하므로 계산량이 많은데 full batch라고도 표현한다, 그 반면, SGD는 확률적 경사 하강법이라고 해서 랜덤하게 추출한 일부분만을 사용하는 방법을 이용한다.
+  
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
