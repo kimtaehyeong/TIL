@@ -102,7 +102,7 @@
   
 * GD(gradient descent) 와 SGD(stochastic gradient descent) 차이점은 ? 딥러닝에서 가장 기본적으로 경사 하강법인(gradient descent)를 배운다. 즉, 미분을 이용해 가중치를 업데이트 ㅌ하는건데, GD는 전체 데이터를 미분해야 하므로 계산량이 많은데 full batch라고도 표현한다, 그 반면, SGD는 확률적 경사 하강법이라고 해서 랜덤하게 추출한 일부분만을 사용하는 방법을 이용한다.
   
-* momentum adagrad 차이점은? momentum은 기본적으로 미분을 통해 기울기를 구하지만, backprop 바로 앞 수정값과 방향을 참조하여 같은 방향으로 일정한 비율만 수정되게 하는 방법인데, zigzag 되면 현상을 개선하였으며, adagrad는 보폭의 크기를 개선시킨 방법인데, 업데이트시 각 변수마다 step size를 다르게 설정해서 이동하는 방법인데 특히 대표적인 word representation인 word2vec, GloVe 모델을 학습시킬 경우 단어의 등장 확률에 따라 변수의 사용 비율이 확연하게 차이나기 때문에 adagrad 같은 학습 방식을 이용하여 더 좋은 성능을 얻을 수 있다.
+* momentum 및 adagrad 차이점은? momentum은 기본적으로 미분을 통해 기울기를 구하지만, backprop 바로 앞 수정값과 방향을 참조하여 같은 방향으로 일정한 비율만 수정되게 하는 방법인데, zigzag 되면 현상을 개선하였으며, adagrad는 보폭의 크기를 개선시킨 방법인데, 업데이트시 각 변수마다 step size를 다르게 설정해서 이동하는 방법인데 특히 대표적인 word representation인 word2vec, GloVe 모델을 학습시킬 경우 단어의 등장 확률에 따라 변수의 사용 비율이 확연하게 차이나기 때문에 adagrad 같은 학습 방식을 이용하여 더 좋은 성능을 얻을 수 있다.
   
 * Reference
 
