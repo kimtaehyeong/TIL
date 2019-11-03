@@ -106,6 +106,8 @@
   
 * rmsprop 및 adam의 차이점은? rmsprop는 adagrad를 개선한 옵티마이저로, adagrad의 보폭의 민감도를 보완하였으며, adam의 경우 momentum과 rmsprop를 합친 옵티마이저입니다. momentum을 사용해 정확도를 향상시키고 rmsprop을 이용하여 보폭 민감도를 보완한 방법입니다. 
   
+* adam과 radam의 차이점은? 초기에 낮은 학습률로 warm up을 해주거나, 모멘텀을 잠시 disable 시키면 아담의 성능이 향상되는 되었는데. keras 에서는 pip install keras-rectified-adam로 설치 후, model.compile(RAam()) 형식으로 사용할 수 있다.
+  
   
 * Reference
 
