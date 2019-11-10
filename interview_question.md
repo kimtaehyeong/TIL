@@ -110,6 +110,7 @@
   
 * adam과 radam의 차이점은? 초기에 낮은 학습률로 warm up을 해주거나, 모멘텀을 잠시 disable 시키면 아담의 성능이 향상되는 되었는데. keras 에서는 pip install keras-rectified-adam로 설치 후, model.compile(RAam()) 형식으로 사용할 수 있다.
   
+* PDF의 값이 1이 넘는 경우가 있나요? pdf에서는 y축의 확률을 의미하는 게 아니기 때문에, 나머지 값을 적분했을 때 1이 되게 맞춘다.
   
 * Reference
 
