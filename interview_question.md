@@ -112,6 +112,7 @@
   
 * PDF의 값이 1이 넘는 경우가 있나요? pdf에서는 y축의 확률을 의미하는 게 아니기 때문에, 나머지 값을 적분했을 때 1이 되게 맞춘다.
   
+* Tensor란 무엇인가요? 텐서(tensor)란 수학적인 개념으로 데이터의 배열이라고 생각할 수 있다. 텐서의 rank는 몇 차원 배열인가를 의미한다. 0차원이면 scalar, 1차원이면 vector, 2차원이면 matrix, 3차원이면 3-tensor, n차원이면 n-tensor 라고 생각할 수 있다.
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
