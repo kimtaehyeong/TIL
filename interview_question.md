@@ -113,6 +113,9 @@
 * PDF의 값이 1이 넘는 경우가 있나요? pdf에서는 y축의 확률을 의미하는 게 아니기 때문에, 나머지 값을 적분했을 때 1이 되게 맞춘다.
   
 * Tensor란 무엇인가요? 텐서(tensor)란 수학적인 개념으로 데이터의 배열이라고 생각할 수 있다. 텐서의 rank는 몇 차원 배열인가를 의미한다. 0차원이면 scalar, 1차원이면 vector, 2차원이면 matrix, 3차원이면 3-tensor, n차원이면 n-tensor 라고 생각할 수 있다.
+
+* cam(class activation map) 이란? CNN을 해석하고자하는 시도가 계속해서 있었는데, filter를 시각화 하거나 filter 단위의 해석이었다. 이러한 해석이 좋다 나쁘다는 아니지만, cam을 사용하면 데이터의 어느 부분을 보고 판단을 내렸는지 확인할 수 있다. gap(global average pooling)을 거치기 전 위치한 feature map들을 합해서 softmax에 집어넣기 위해 fc를 하나 추가해주고 이 두개를 곱하면된다. 즉 class c로 분류될 확률을 구할 때 곱해지는 weight들을 feature map에 곱해준다음 이를 합치면 무엇을 보고 이 feature map이 c라고 분류했는지 알수 있는 것이다.
+
 * Reference
 
   https://zzsza.github.io/data/2018/02/17/datascience-interivew-questions/
