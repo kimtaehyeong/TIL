@@ -84,7 +84,7 @@
   
 * 차원의 저주(curse of dimensionality)란? 변수의 수가 늘어나 차원이 커지면서 발생하는 문제를 차원의 저주라고 부른다. 즉, 고차원 데이터일수록 그 데이터로부터 모델을 학습하기가 훨씬 어려워지고 훨씬 더 많은 양의 데이터가 필요하게되는 현상인데 현실세계에서는 데이터가 무한하지 않으므로 모델설계를 잘 해야 하고 전처리 (주성분분석 등)를 이용해서 낮춰주면 좋은 성능을 기대할 수 있다. 물론 모든 경우가 그렇진 않다.
 
-* 오브젝트 디텍션 대표적인 논문은? Object-Detection은 여러가지 물체에 대한 분류(classification) + 물체의 위치정보를 파악하는 localization이라고 생각할 수 있습니다. 크게 regional proposal과 classification이 순차적으로 이루어지는 r-cnn계열인 r-cnn, fast r-cnn, faster r-cnn, mask-rcnn이 있고 regional proposal와 clssication이 동시에 이루어지는 yolo, ssd 계열이 있다. yolo는 v5까지 나와있고 ssd는 refinedet이 state-of-the-art한 논문인거 같다.
+* 오브젝트 디텍션 대표적인 논문은? Object-Detection은 여러가지 물체에 대한 분류(classification) + 물체의 위치정보를 파악하는 localization이라고 생각할 수 있습니다. 크게 regional proposal과 classification이 순차적으로 이루어지는 r-cnn계열인 r-cnn, fast r-cnn, faster r-cnn, mask-rcnn이 있고 regional proposal와 clssication이 동시에 이루어지는 yolo, ssd 계열이 있다. yolo는 v3까지 나와있고 ssd는 refinedet이 state-of-the-art한 논문인거 같다.
   
 * 모델 경량화 하는방법은 ? 크게 경량 알고리즘 연구, 알고리즘 경량화 연구 두 분류로 나뉠수 있는데, 경량 알고리즘 연구에는 모델 구조 변경, cnn 필터 변경, 강화 학습을 통해 최적 모델 자동 탐색 연구가 있으며 알고리즘 경량화 연구에는 모델 압축, 전이 학습, 하드웨어 가속화, 강화 학습 기반의 최적모델 연구 AMC 로 크게 볼 수 있다. 
   
